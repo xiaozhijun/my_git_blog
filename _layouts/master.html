@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - all posts" href="http://www.kafeitu.me/atom.xml" />
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - all posts" href="http://xiaozhijun.github.com/my_git_blog/atom.xml" />
     <link REL="SHORTCUT ICON" HREF="http://xiaozhijun.github.com/my_git_blog/images/favicon.ico"/>
     <!-- weibo -->
     <meta property="wb:webmaster" content="61eb31a6e636506d" />
@@ -20,10 +20,10 @@
     <title>{{ page.title }} - 邪恶de猫咪</title>
     <link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" charset="utf-8"/>
     <link rel="stylesheet" href="/stylesheets/syntax.css" type="text/css" media="screen" charset="utf-8"/>
-    <link type="text/css" rel="stylesheet" href="/javascripts/syntaxhighlighter/styles/shCoreMidnight.css"/>
-    <link type="text/css" rel="stylesheet" href="/javascripts/syntaxhighlighter/styles/shThemeMidnight.css"/>
-    <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/javascripts/jquery.github.js" type="text/javascript" charset="utf-8"></script>
+    <link type="text/css" rel="stylesheet" href="/my_git_blog/javascripts/syntaxhighlighter/styles/shCoreMidnight.css"/>
+    <link type="text/css" rel="stylesheet" href="/my_git_blog/javascripts/syntaxhighlighter/styles/shThemeMidnight.css"/>
+    <script src="/my_git_blog/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/my_git_blog/javascripts/jquery.github.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
   <a href="http://github.com/xiaozhijun/my_git_blog"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
@@ -33,12 +33,12 @@
         
         <div id='menu'>
           <ul>
-            <li><a href='/' id='home-link' title='Home'>首页</a></li>
-            <li><a href='/blog.html' id='blog-link' title='Blog'>博客</a></li>
-            <li><a href='/categories.html' id='categories-link' title='Categories'>分类</a></li>
-            <li><a href='/tags.html' id='tags-link' title='Tags'>标签</a></li>
-            <li><a href='/about.html' id='about-link' title='About'>关于</a></li>
-            <li><a href='http://github.com/xiaozhijun' target='_blank' title='GitHub' rel='me' id='github-link'>GitHub</a></li>
+            <li><a href='/my_git_blog' id='home-link' title='Home'>首页</a></li>
+            <li><a href='/my_git_blog/blog.html' id='blog-link' title='Blog'>博客</a></li>
+            <li><a href='/my_git_blog/categories.html' id='categories-link' title='Categories'>分类</a></li>
+            <li><a href='/my_git_blog/tags.html' id='tags-link' title='Tags'>标签</a></li>
+            <li><a href='/my_git_blog/about.html' id='about-link' title='About'>关于</a></li>
+            <li><a href='https://github.com/xiaozhijun' target='_blank' title='GitHub' rel='me' id='github-link'>GitHub</a></li>
             <li><a href='http://weibo.com/evilkitty' title='微博' target='_blank' id='weibo-link'>微博</a></li>
           </ul>
         </div>
@@ -50,7 +50,7 @@
       <!-- Duoshuo Comment BEGIN -->
       <div class="ds-thread"></div>
       <script type="text/javascript">
-      var duoshuoQuery = {short_name: "kafeitu"};
+      var duoshuoQuery = {short_name: "邪恶de猫咪"};
       (function() {
         var ds = document.createElement('script');
         ds.type = 'text/javascript';ds.async = true;
@@ -65,8 +65,8 @@
     </div>
 
     <!-- 语法高亮 BEGIN -->
-    <script src="/javascripts/syntaxhighlighter/scripts/shCore.js" type="text/javascript"></script>
-    <script src="/javascripts/syntaxhighlighter/scripts/shAutoloader.js" type="text/javascript"></script>
+    <script src="/my_git_blog/javascripts/syntaxhighlighter/scripts/shCore.js" type="text/javascript"></script>
+    <script src="/my_git_blog/javascripts/syntaxhighlighter/scripts/shAutoloader.js" type="text/javascript"></script>
     <script type="text/javascript">
     $(function() {
       SyntaxHighlighter.autoloader.apply(null, path(
@@ -102,7 +102,7 @@
       var args = arguments, result = [];
            
       for(var i = 0; i < args.length; i++) {
-        result.push(args[i].replace('@', '/javascripts/syntaxhighlighter/scripts/'));
+        result.push(args[i].replace('@', '/my_git_blog/javascripts/syntaxhighlighter/scripts/'));
       }
       return result;
     };
